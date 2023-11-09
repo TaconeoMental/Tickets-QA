@@ -70,6 +70,9 @@ def handle_form():
     email = request.form.get("email")
     message = request.form.get("message")
     if all([name, email, message]):
+        for c in "%{}()+": # Evitamos SSTI
+            name = name.replace(c, "*")
+            message = message.replace(c, "*")
         process_ticket(name, email, message)
     return flask.make_response(flask.redirect("/"))
 

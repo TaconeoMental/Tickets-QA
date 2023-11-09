@@ -24,5 +24,5 @@ desastre. Les dejo un diagrama:
 Nuestra empresa no tiene presupuesto para ciberseguridad, así que cualquier
 ayuda es bienvenida.
 
-El sitio actual se encuentra en https://dominioreal.xyz.
+El sitio actual se encuentra en http://dominioreal.xyz.
 

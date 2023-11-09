@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-FLAG = "MAGIA{XXX}"
+FLAG = "flag{olaaa_no_soi_la_flag_confia_en_mi}"
 
 from sys import stdin
 import json
